@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oxeanbits-desafio/static/css/main.8b6cc130.css",
+    "main.js": "/oxeanbits-desafio/static/js/main.d3fb995a.js",
+    "static/js/488.ae29914a.chunk.js": "/oxeanbits-desafio/static/js/488.ae29914a.chunk.js",
+    "index.html": "/oxeanbits-desafio/index.html",
+    "main.8b6cc130.css.map": "/oxeanbits-desafio/static/css/main.8b6cc130.css.map",
+    "main.d3fb995a.js.map": "/oxeanbits-desafio/static/js/main.d3fb995a.js.map",
+    "488.ae29914a.chunk.js.map": "/oxeanbits-desafio/static/js/488.ae29914a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b6cc130.css",
+    "static/js/main.d3fb995a.js"
+  ]
+}
