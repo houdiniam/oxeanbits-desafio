@@ -2,7 +2,7 @@
   "name": "oxeanbits-desafio-fuzzy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://houdiniam.github.io/oxeanbits-desafio",
   "dependencies": {
     "@progress/kendo-data-query": "^1.7.0",
     "@progress/kendo-drawing": "^1.19.0",
@@ -62,6 +62,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
@@ -95,6 +97,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.0",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jest-transform-stub": "^2.0.0"
