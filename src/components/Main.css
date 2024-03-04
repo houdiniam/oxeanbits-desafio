@@ -1,0 +1,12 @@
+main>div {
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px #0004;
+    margin: 50px 200px 0px;
+}
+
+@media (max-width: 1024px) {
+    main>div {
+        width: auto;
+        margin: 10px;
+    }
+}
