@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Table.css'
 
 export default function Table() {
+    // Envia a url para o useFetch fazer a chamada da api
     const aqui = useFetch('https://valorant-api.com/v1/agents')
     const createDataState = dataState => {
         return {
@@ -20,6 +21,8 @@ export default function Table() {
         skip: 0
     });
     const [color, setColor] = useState('#007bf7');
+
+    // Consts que auxiliam na visualização e filtragem dos dados
     const [result, setResult] = useState(initialState.result);
     const [dataState, setDataState] = useState(initialState.dataState);
     const dataStateChange = event => {
