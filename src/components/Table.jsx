@@ -40,7 +40,6 @@ export default function Table() {
     return (
         <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
-
                 <h2 style={{ justifySelf: 'center', margin: '0' }}>Agentes Valorant</h2>
                 <Button id='botao' onClick={() => {fillArray()}} style={{ marginLeft: 'auto', backgroundColor: color, color: 'white' }}>
                     Carregar Agentes
