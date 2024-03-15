@@ -1,5 +1,7 @@
 # oxeanbits-desafio
 
+Link para o desafio: https://github.com/oxeanbits/fuzzy-invention
+
 ## Scripts Disponíveis:
 
 Olá, no terminal você pode rodar os comandos:
